@@ -1,0 +1,18 @@
+#yourname {
+    float: left;
+    background-color: #4aaaa5;
+}
+
+#nav {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+img {
+    width: 80px;
+    height: 50px;
+}
