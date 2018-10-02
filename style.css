@@ -62,10 +62,15 @@ nav {
     margin-bottom: 50px;
     overflow: auto;
     line-height: 30px;
-    
-    
 }
-#profilepic {
+#content form input {
+    width: 100%;
+}
+#content #submitbutton {
+    width: 100px;
+}
+
+#profilepic{
     width: 240px;
     height: 240px;
     float: left;
@@ -88,7 +93,6 @@ body {
     border-top-style: solid;
     border-top-color: #4aaaa5;
     bottom: 0;
-    position: fixed;
     width: 100%;
     text-align: center;
 }
@@ -105,12 +109,12 @@ body {
     background-color: #4aaaa5;
     text-align: center;
     width: 300px;
-    margin-top: -70px;
+    margin-top: -85px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     font-size: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
-    
 
 }
+
