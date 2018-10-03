@@ -4,7 +4,7 @@
     background-color: #4aaaa5;
     padding: 20px;
     color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;`
+    font-family: 'Georgia', Times, Times New Roman, serif;
     margin: 0px;
 
 }
@@ -68,6 +68,13 @@ nav {
 }
 #content #submitbutton {
     width: 100px;
+    color: white;
+    background-color: #4aaaa5;
+    border-style: none;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font: 'arial', 'helvetica neue', 'helvetiva', 'sans-serif'
 }
 
 #profilepic{
@@ -82,8 +89,9 @@ body {
     margin:0px;
     background-image:url(./assets/images/leaves-pattern.png);
     background-style: repeat;
+    width: 100%;
 }
-#footer {
+footer {
     color: white;
     background-color: #777777;
     margin-left: auto;
@@ -117,4 +125,3 @@ body {
     padding-bottom: 15px;
 
 }
-
