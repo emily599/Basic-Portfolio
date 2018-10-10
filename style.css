@@ -35,7 +35,7 @@ header {
     font-family: 'arial', 'helvetica neue', 'helvetiva', 'sans-serif'; 
 }
 nav {
-    width: 960px;
+    /* width: 960px; */
     background-color: white;
     margin-left: auto;
     margin-right: auto;
@@ -63,10 +63,10 @@ nav {
     font-family: 'arial', 'helvetica neue', 'helvetiva', 'sans-serif';
     border-width: 2px;
     border-color: #dddddd;
-    width: 960px;
+    /* width: 960px; */
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 20px 0px;
     border-width: 1px;
     border-style: solid;
     border-color: #dddddd;
@@ -112,7 +112,7 @@ footer {
     background-color: #777777;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 20px 0px;
     border-top-width: 8px;
     border-top-style: solid;
     border-top-color: #4aaaa5;
@@ -144,4 +144,72 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
 
+}
+@media only screen and (max-width: 640px) {
+    header {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    #nav {
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 70px;
+
+    }
+    #content {
+        width: 100%;
+        border: none;
+    }
+    #absolute {
+        padding: 20px;
+    }
+    #profilepic {
+        padding: 20px;
+    }
+    
+    .wrapper {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+    #nav {
+        text-align: right;
+        width: 100%;
+        margin-left: auto;
+        padding-right: 0;
+
+    }
+    #wholenav {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    html {
+        width: 100%;
+    }
+    #content {
+        width: 100%;
+        border: none;
+    }
+    #absolute {
+        padding: 20px;
+    }
+    #profilepic {
+        padding: 20px;
+    }
+    
+    .wrapper {
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 769px:) and (max-width: 980px) {
+    body {
+        
+    }
 }
